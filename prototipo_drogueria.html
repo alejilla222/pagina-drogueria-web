@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Droguería Popular La Cuarta | Inventario y ventas</title>
+  <link rel="stylesheet" href="estilos_drogueria.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">+</span><div><strong>Drogueria Popular La Cuarta</strong><small>Gestión de droguería</small></div></div>
+    <nav aria-label="Navegación principal">
+      <a class="active" href="#resumen">▦ <span>Panel principal</span></a>
+      <a href="#inventario">▤ <span>Inventario</span></a>
+      <a href="#ventas">＄ <span>Registrar venta</span></a>
+      <a href="#reportes">▥ <span>Reportes</span></a>
+      <a href="#proveedores">♧ <span>Proveedores</span></a>
+    </nav>
+    <div class="sidebar-note">Sistema de control<br>de inventario y ventas</div>
+  </aside>
+
+  <main class="main" id="resumen">
+    <header class="topbar">
+      <div><p class="eyebrow">GESTIÓN COMERCIAL</p><h1>Panel principal</h1></div>
+      <div class="user-chip"><span class="avatar">AD</span><div><strong>Administrador</strong><small>Sesión de demostración</small></div></div>
+    </header>
+
+    <section class="welcome">
+      <div><p class="eyebrow light">DROGUERÍA POPULAR LA CUARTA</p><h2>Controla tu negocio<br>desde un solo lugar.</h2>
+      <p>Consulta existencias, registra ventas y revisa los movimientos diarios.</p></div>
+      <div class="welcome-icon" aria-hidden="true">✚</div>
+    </section>
+
+    <section class="stats" aria-label="Indicadores de ejemplo">
+      <article class="stat-card"><span class="stat-icon mint">▤</span><p>Productos registrados</p><strong>1.248</strong><small>Ejemplo de información</small></article>
+      <article class="stat-card"><span class="stat-icon blue">＄</span><p>Ventas del día</p><strong>$ 845.600</strong><small>Valor ilustrativo</small></article>
+      <article class="stat-card"><span class="stat-icon amber">!</span><p>Stock bajo</p><strong>12 productos</strong><small>Requieren revisión</small></article>
+    </section>
+
+    <section class="panel-grid">
+      <article class="panel" id="inventario">
+        <div class="panel-heading"><div><p class="eyebrow">CONTROL DE EXISTENCIAS</p><h3>Inventario reciente</h3></div><a href="#inventario">Ver inventario →</a></div>
+        <div class="table-wrap"><table><thead><tr><th>Producto</th><th>Categoría</th><th>Existencias</th><th>Estado</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Acetaminofén 500 mg</strong><small>SKU: MED-001</small></td><td>Analgésicos</td><td>86</td><td><span class="status ok">Disponible</span></td></tr>
+            <tr><td><strong>Suero oral</strong><small>SKU: MED-014</small></td><td>Hidratación</td><td>7</td><td><span class="status low">Stock bajo</span></td></tr>
+            <tr><td><strong>Vitamina C</strong><small>SKU: VIT-008</small></td><td>Vitaminas</td><td>42</td><td><span class="status ok">Disponible</span></td></tr>
+          </tbody></table></div>
+      </article>
+      <article class="panel" id="ventas">
+        <div class="panel-heading"><div><p class="eyebrow">OPERACIÓN DIARIA</p><h3>Acciones rápidas</h3></div></div>
+        <a class="action" href="#ventas"><span class="action-icon">＋</span><span><strong>Registrar venta</strong><small>Agregar productos y cantidades</small></span><b>→</b></a>
+        <a class="action" href="#inventario"><span class="action-icon">▤</span><span><strong>Agregar producto</strong><small>Actualizar el catálogo</small></span><b>→</b></a>
+        <a class="action" href="#reportes"><span class="action-icon">▥</span><span><strong>Consultar reportes</strong><small>Revisar movimientos y totales</small></span><b>→</b></a>
+      </article>
+    </section>
+    <footer id="reportes">Prototipo académico de interfaz · Los datos mostrados son ilustrativos y no corresponden a ventas reales.</footer>
+  </main>
+</body>
+</html>
